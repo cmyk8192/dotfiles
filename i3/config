@@ -194,7 +194,6 @@ default_floating_border pixel 2
 # always execute or whatever
 exec_always --no-startup-id ~/.config/i3/polybar.sh
 exec nitrogen --set-zoom-fill ~/pictures/wallpapers/cute/koishikitty.png
-exec_always xinput set-prop 13 323 0 1 0
 
 # screenshot 
 bindsym Shift+Print exec flameshot gui
