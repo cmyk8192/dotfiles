@@ -26,6 +26,12 @@ Plug 'junegunn/limelight.vim'
 Plug 'terryma/vim-smooth-scroll'
 Plug 'ap/vim-css-color'
 Plug 'keith/parsec.vim'
+Plug 'sainnhe/everforest'
 
 call plug#end()
 
+set background=dark
+set termguicolors
+let g:everforest_background = 'soft'
+let g:everforest_transparent_background = 1
+colorscheme everforest
